@@ -1,0 +1,13 @@
+/*
+Theme Name: gusailov Theme
+Author: gusailov
+Text Domain: gusailovtheme
+*/
+
+body {
+  background: #000000;
+  color: rgb(255, 255, 255);
+}
+#site-header {
+  background: rgb(250, 250, 250);
+}
