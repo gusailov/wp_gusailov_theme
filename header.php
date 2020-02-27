@@ -17,7 +17,13 @@
 	<img src="<?php echo get_field('logo', 'option')['sizes']['thumbnail']; ?>" />
 
 <?php
-
+wp_nav_menu(
+										array(
+											'container'  => 'div',
+											'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+											
+										)
+									);
 ?>
 
 
